@@ -10,9 +10,9 @@
 #endif
 
 #include <ATen/ATen.h>
+#include <ATen/ceil_div.h>
 #include <ATen/cuda/CUDAContext.h>
-
-#include <THC/THC.h>
+#include <ATen/cuda/ThrustAllocator.h>
 #include <THC/THCDeviceUtils.cuh>
 
 #include <vector>

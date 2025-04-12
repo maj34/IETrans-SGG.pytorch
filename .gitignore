@@ -36,3 +36,11 @@ datasets/*
 # MacOS
 .DS_Store
 
+# env
+cmds/base.sh
+
+# rcnn
+maskrcnn_benchmark/pretrained/pretrained_faster_rcnn
+
+# experiments
+experiments
